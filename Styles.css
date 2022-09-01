@@ -1,0 +1,38 @@
+#grid{
+
+    width: 400px;
+    height: 300px;
+    
+
+display: flex; /* used so i can utilize flex wrap for my grid*/
+flex-wrap: wrap;
+
+justify-content: center;
+}
+
+body{
+    
+
+ text-align: center;
+    
+ /* good code for centering*/
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background: rgb(0, 0, 0);
+  
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+ 
+    
+display: flex; /* used so i can utilize flex wrap for my grid*/
+flex-wrap: wrap;
+color: rgb(255, 255, 255)
+
+}
+
+
